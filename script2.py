@@ -22,3 +22,13 @@ placas2 = ["AAA111", "BBB222", "CCC333", "DDD444"]
 placas2.insert(1,"GSD874")
 
 print(placas2)
+
+print("***********************************************")
+placas3 = ["AAA111", "BBB222", "CCC333", "DDD444"]
+
+#print(placas3.index("CCC333"))
+
+placas3.pop(placas3.index("CCC333"))
+
+print(placas3)
+
